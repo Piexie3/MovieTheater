@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ericg.neatflix">
+    package="com.bett.neatflix">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.ericg.neatflix.util.application.NeatFlixApp"
+        android:name="com.bett.neatflix.util.application.NeatFlixApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NeatFlix">
         <activity
-            android:name="com.ericg.neatflix.screens.MainActivity"
+            android:name="com.bett.neatflix.screens.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
